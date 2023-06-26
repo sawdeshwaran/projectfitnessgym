@@ -1,0 +1,133 @@
+/*-----------font--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*-----------html--------------*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    }
+    
+ /*-----------nav--------------*/
+ .navbar{
+    background-color: white;
+    color: blue;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.nav-link{
+    color: blue!important;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    padding: 5px;
+
+}
+.nav-link:hover{
+    color: chocolate !important;
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+
+/*----------------------------------navbar brand------------------------------------*/
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue !important;
+}
+
+span{
+    color: rgb(236,83,83);
+}
+
+
+/*------some small content------*/
+#small-content{
+    
+    border-top: 1px 1px 2px rgba(0,0,0,0.2);
+    background-color:white;
+    color: black;
+}
+
+/*----------------------------------aboutus------------------------------------*/
+
+.img-fluid{    
+    
+    box-shadow: 1px 1px 1px rgb(0, 0,0,.2);
+    margin: 0,auto;
+    height: 400px;
+    width: 400px;
+}
+#aboutus{
+
+    background-color:white;
+    color: black;
+    
+}
+/*------------ourservices-------------------------*/
+.service{
+text-align: center;
+overflow: hidden;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px 60px;
+    background-color: white;
+    color: black;
+   
+}
+.card:hover{
+    background-color: brown;
+    color: white;
+}
+.fa-solid{
+    font-size: 30px;
+} 
+.card:hover .fa-solid{
+    color: white;
+}
+/*--------------our team-------------------------*/
+
+.team .card{
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px 60px;
+    background-color: white;
+    color: black;
+    border: 0px;
+    
+}
+.team .card:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.ot{
+    text-align: center;
+    font-weight: 400;
+
+}
+
+/*--------------contect us----------------------*/
+form{
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    margin:20px 40px;
+    align-content: center;
+    overflow: hidden;
+}
+
